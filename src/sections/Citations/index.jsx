@@ -135,6 +135,11 @@ const Wrapper = styled.section`
     gap: 30px;
   }
 
+  .right-arrow,
+  .left-arrow {
+    cursor: pointer;
+  }
+
   .right-arrow {
     font-size: 32px;
   }

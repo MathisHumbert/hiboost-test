@@ -22,4 +22,9 @@ button {
   font-family: var(--roboto-font);
   color: #fff;
   font-size: 18px;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }

@@ -70,6 +70,10 @@ const Wrapper = styled.article`
     line-height: 0;
     cursor: pointer;
     font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `;
 export default Info;

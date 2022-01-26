@@ -40,6 +40,10 @@ const Wrapper = styled.div`
     font-family: var(--roboto-font);
     font-weight: 700;
     margin-top: 24px;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `;
 export default BottomInfo;

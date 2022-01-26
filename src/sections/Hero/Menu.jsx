@@ -53,6 +53,10 @@ const Wrapper = styled.nav`
       line-height: 21px;
       cursor: pointer;
       font-weight: 500;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -68,6 +72,10 @@ const Wrapper = styled.nav`
     font-family: var(--roboto-font);
     color: var(--primary-font-color);
     font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .contact-btn {
@@ -79,6 +87,11 @@ const Wrapper = styled.nav`
     margin-left: 21px;
     margin-right: 30px;
     font-weight: 500;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .search-btn {
@@ -88,6 +101,11 @@ const Wrapper = styled.nav`
     .search-icon {
       font-size: 21px;
       color: var(--primary-font-color);
+      transition: font-size 0.3s ease;
+
+      &:hover {
+        font-size: 26px;
+      }
     }
   }
 `;
