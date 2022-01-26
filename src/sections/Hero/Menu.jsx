@@ -25,12 +25,12 @@ const Menu = () => {
 };
 
 const Wrapper = styled.nav`
+  padding-top: 35px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: calc(100% - 143px);
   margin: 0 auto;
-
   font-family: var(--roboto-font);
   color: var(--primary-font-color);
 
