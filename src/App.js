@@ -2,6 +2,7 @@ import Hero from './sections/Hero';
 import Menu from './sections/Menu';
 import Fonctionnalites from './sections/Fonctionnalites';
 import Offre from './sections/Offre';
+import Citations from './sections/Citations';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Fonctionnalites />
       <Offre />
+      <Citations />
     </>
   );
 }
